@@ -10,16 +10,19 @@ public class PerimeterOfTriangle {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the side a of the triangle : ");
-        int a = in.nextInt();
+        int a = in.nextInt();//Declare the side 1 of the triangle
+
         System.out.print("Enter the side b of the  triangle : ");
-        int b = in.nextInt();
+        int b = in.nextInt();//Declare the side 2 or the triangle
+
         System.out.print("Enter the side c of the triangle : ");
-        int c = in.nextInt();
-        int perimeter = a + b + c;
+        int c = in.nextInt();//Declare the side 3 or the triangle
+        int perimeter = a + b + c;// count perimeter of the triangle
+        System.out.println("Perimeter of the triangle is : " + perimeter);
         if(a < b + c && b < a + c && c < a + b)
             System.out.println(perimeter + " is a valid perimeter of the triangle. ");
         else
-            System.out.println("Invalid input ");
+            System.out.println("Invalid input ");//Output is invalid
     }
 
 }
