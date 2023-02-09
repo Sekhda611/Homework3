@@ -23,7 +23,7 @@ public class PerimeterOfTriangle {
         if(a < b + c && b < a + c && c < a + b)
             System.out.println(perimeter + " is a valid perimeter of the triangle. ");
         else
-            System.out.println(perimeter + " is a Invalid input ");//Output is invalid
+            System.out.println("Invalid input ");
     }
 
 }
