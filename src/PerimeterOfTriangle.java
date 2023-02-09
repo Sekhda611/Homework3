@@ -17,12 +17,13 @@ public class PerimeterOfTriangle {
 
         System.out.print("Enter the side c of the triangle : ");
         int c = in.nextInt();//Declare the side 3 or the triangle
-        int perimeter = a + b + c;// count perimeter of the triangle
+        int perimeter = a + b + c;// Calculate perimeter of the triangle
         System.out.println("Perimeter of the triangle is : " + perimeter);
+
         if(a < b + c && b < a + c && c < a + b)
             System.out.println(perimeter + " is a valid perimeter of the triangle. ");
         else
-            System.out.println("Invalid input ");//Output is invalid
+            System.out.println(perimeter + " is a Invalid input ");//Output is invalid
     }
 
 }
